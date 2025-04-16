@@ -54,15 +54,6 @@ Le code INSEE est récupéré via l'API officielle du gouvernement :
 
 Cette API permet d'obtenir le code INSEE à partir d’une **ville** et d’un **code postal**.
 
-## ✅ Restitution demandée
-
-Le candidat doit présenter son travail en 30 minutes à Studeffi :
-
-- Démonstration de l'application
-- Présentation du code et des choix techniques
-- Mise en avant de l’ergonomie et des bonnes pratiques
-
-L’évaluation portera autant sur le **fond** que sur la **forme**.
 
 ## ✨ Recommandations
 
@@ -71,7 +62,18 @@ L’évaluation portera autant sur le **fond** que sur la **forme**.
 - Validation côté client et côté serveur
 - Utilisation de jQuery, AJAX et JavaScript recommandée
 
+## 🪛 Test de l'application
+
+Pour tester l'application deux rôles existent client et admin.
+
+Client - permet d'ajouter un compteur pour avoir un compte s'inscrire via la page dedié.
+
+admin - utilisateur predefinie par les logs suivant, il permet de voir les compteur et les modifié ou les supprimer de la bdd.
+        email : admin@gmail.com
+         mot de passe : root
+
+
+
 ---
 
-**© Studeffi** – Bureau d’Efficacité Énergétique  
-📍 7 Avenue de la Libération, 72000 LE MANS
+
