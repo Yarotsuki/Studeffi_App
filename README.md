@@ -67,6 +67,7 @@ Cette API permet d'obtenir le code INSEE à partir d’une **ville** et d’un *
 Pour tester l'application deux rôles existent client et admin.
 
 Client - permet d'ajouter un compteur pour avoir un compte s'inscrire via la page dedié.
+
 admin - utilisateur predefinie par les logs suivant, il permet de voir les compteur et les modifié ou les supprimer de la bdd.
         email : admin@gmail.com
          mot de passe : root
