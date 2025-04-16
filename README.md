@@ -54,15 +54,6 @@ Le code INSEE est récupéré via l'API officielle du gouvernement :
 
 Cette API permet d'obtenir le code INSEE à partir d’une **ville** et d’un **code postal**.
 
-## ✅ Restitution demandée
-
-Le candidat doit présenter son travail en 30 minutes à Studeffi :
-
-- Démonstration de l'application
-- Présentation du code et des choix techniques
-- Mise en avant de l’ergonomie et des bonnes pratiques
-
-L’évaluation portera autant sur le **fond** que sur la **forme**.
 
 ## ✨ Recommandations
 
