@@ -19,16 +19,19 @@
       <div class="mt-4">
         <p>Pour ajouter un compteur cliquer ici</p>
         <button type="button" class="btn btn-primary mb-4">
-          <a href="index.php?section=ajouterCompteur" class="text-white text-decoration-none">Ajouter un compteur</a>
+          <a href="index.php?section=Ajoutercompteur" class="text-white text-decoration-none">Ajouter un compteur</a>
         </button>
       </div>
 
-      <div class="mt-4">
-        <p>Pour consulter vos compteurs cliquer ici</p>
-        <button type="button" class="btn btn-success">
-          <a href="index.php?section=adminCompteur" class="text-white text-decoration-none">Voir les compteurs</a>
-        </button>
-      </div>
+      <?php if(isset($_SESSION['role']) && $_SESSION['role'] === 'admin') { ?>
+        <div class="mt-4">
+          <p>Pour consulter vos compteurs cliquer ici</p>
+          <button type="button" class="btn btn-success">
+            <a href="index.php?section=adminCompteur" class="text-white text-decoration-none">Voir les compteurs</a>
+          </button>
+        </div>
+      <?php } ?>
+
     <?php } else { ?>
       <div class="mt-4">
         <p>Veuillez vous connecter pour accéder aux fonctionnalités</p>
