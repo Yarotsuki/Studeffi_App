@@ -1,0 +1,3 @@
+GRANT USAGE ON *.* TO `admin_Studeffi`@`localhost` IDENTIFIED BY PASSWORD '*B595A2740B48EACFB7B183A442201280F53E3598';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `cas\_studeffi`.* TO `admin_Studeffi`@`localhost`;
