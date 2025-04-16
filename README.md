@@ -73,5 +73,4 @@ L’évaluation portera autant sur le **fond** que sur la **forme**.
 
 ---
 
-**© Studeffi** – Bureau d’Efficacité Énergétique  
-📍 7 Avenue de la Libération, 72000 LE MANS
+
